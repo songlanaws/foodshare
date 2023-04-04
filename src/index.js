@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import store from './redux/store';
 import './index.css';
 import Home from './Home';
-import SignUp from './SignUp';
+import SignUp from './signin-signup/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
