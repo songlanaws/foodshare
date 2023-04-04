@@ -1,0 +1,16 @@
+.signUpform {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.message {
+  font-family: Menlo,Roboto Mono,monospace;
+  text-align: center;
+}
+
+.message a {
+  color: #6495ed;
+  text-decoration: none;
+}
+

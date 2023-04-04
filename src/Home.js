@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Container, Stack } from '@mui/material'; 
 import HomeBar from './home-page/HomeBar';
+import HomeLogoIntro from './home-page/HomeLogoIntro';
 
 import './styles/home-page/Home.css';
 
@@ -15,7 +16,7 @@ const Home = () => {
             <Box ss={{ width: '100%' }}>
                 <Stack spacing={2} className='homeContent'>
                     <div>
-                        <span className='logo'>Dudu & Juju</span>
+                        <HomeLogoIntro />
                     </div>
                     <div>Item 2</div>
                     <div>Item 3</div>

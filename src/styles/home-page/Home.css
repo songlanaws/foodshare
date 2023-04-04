@@ -2,9 +2,53 @@
     margin-top: 100px;
 }
 
+.homeBar {
+    background-color: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homeNav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.homeNav a {
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Menlo,Roboto Mono,monospace;
+}
+
+.TextButton {
+    border: 2px solid #333;
+}
+
 .logo {
     font-family: Pacifico,cursive;
     font-weight: 900;
     display: block;
-    font-size: 60px;
+    font-size: 70px;
+}
+
+.subtitle {
+    font-family: Menlo,Roboto Mono,monospace;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.description {
+    font-family: Menlo,Roboto Mono,monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0;
 }
